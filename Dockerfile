@@ -1,5 +1,8 @@
 FROM w32blaster/dcind
 
+RUN apk update
+RUN apk add bash
+
 ENV JAVA_VERSION_MAJOR=8
 ENV JAVA_VERSION_MINOR=131
 ENV JAVA_VERSION_BUILD=11
