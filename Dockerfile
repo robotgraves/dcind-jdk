@@ -7,6 +7,10 @@ RUN apk add sshpass
 RUN apk add openssh
 RUN apk add sudo
 RUN apk add py-pip
+RUN apk add groff
+RUN apk add less
+
+RUN export PATH=~/.local/bin:$PATH
 
 ENV JAVA_VERSION_MAJOR=8
 ENV JAVA_VERSION_MINOR=131
