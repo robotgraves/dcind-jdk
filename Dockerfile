@@ -9,6 +9,7 @@ RUN apk add sudo
 RUN apk add py-pip
 RUN apk add groff
 RUN apk add less
+RUN apk add make
 
 RUN export PATH=~/.local/bin:$PATH
 
