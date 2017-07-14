@@ -4,6 +4,7 @@ RUN apk update
 RUN apk add bash
 RUN apk add ansible
 RUN apk add sshpass
+RUN apk add openssh
 
 ENV JAVA_VERSION_MAJOR=8
 ENV JAVA_VERSION_MINOR=131
