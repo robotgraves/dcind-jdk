@@ -3,6 +3,7 @@ FROM w32blaster/dcind
 RUN apk update
 RUN apk add bash
 RUN apk add ansible
+RUN apk add sshpass
 
 ENV JAVA_VERSION_MAJOR=8
 ENV JAVA_VERSION_MINOR=131
